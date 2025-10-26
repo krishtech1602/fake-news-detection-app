@@ -28,39 +28,6 @@ Joblib – Model serialization
 
 Streamlit – Frontend web application
 
-ReportLab – PDF report generation
-
-🧩 Steps to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/fake-news-detection.git
-cd fake-news-detection
-
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-
-Or manually:
-
-pip install pandas numpy scikit-learn joblib streamlit
-
-3️⃣ Run the Model Training Script
-python train_model.py
-
-
-This will:
-
-Load and clean the dataset (True.csv, Fake.csv)
-
-Train a Logistic Regression model
-
-Save the model (news_model.pkl) and vectorizer (vectorizer.pkl)
-
-4️⃣ Launch the Streamlit App
-streamlit run app.py
-
-
-Then open the link shown in the terminal (usually http://localhost:8501) in your browser.
-
 📊 Project Workflow
 
 Data Collection – Merge and label True.csv and Fake.csv datasets

@@ -13,6 +13,7 @@ env/
 .vscode/
 
 # Data files
+.csv
 *.pkl
 *.h5
 
